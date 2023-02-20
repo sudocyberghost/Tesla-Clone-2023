@@ -10,7 +10,7 @@ body {
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    padding: 5px 20px;
+    padding: 20px 20px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,7 +22,6 @@ header {
 .logo {
     height: 18px;
     width: 120px;
-    /* color:inherit; */
 }
 header a {
     color: #1f242c;
@@ -50,4 +49,26 @@ header nav a {
     .toggle {
         display: initial;
     }
+}
+
+section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    /* padding-top: 4%; */
+    padding-top: 58px;
+}
+p {
+    text-align: center;
+    font-size: 16px;
+}
+span {
+    text-decoration: underline;
+}
+.model3 {
+    font-size: 18px;
 }
