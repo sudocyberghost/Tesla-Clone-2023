@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #2a2f3a;
+    font-family: 'M PLUS 1', sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.left {
+    padding-left: 20px;
+}
+.logo {
+    height: 18px;
+    width: 120px;
+    /* color:inherit; */
+}
+header a {
+    color: #1f242c;
+}
+header nav a {
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.center {
+    font-weight: bold;
+    font-size: 14px;
+
+    text-align: center;
+}
+.right {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+
+}
+.toggle {
+    display: none;
+}
+@media (min-width: 1175px) {
+    .toggle {
+        display: initial;
+    }
+}
