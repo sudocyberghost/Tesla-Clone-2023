@@ -128,3 +128,40 @@ span {
         width: 270px;
     }
 }
+aside {
+    position: fixed;
+    overflow: scroll;
+    right: -320px;
+    width: 320px;
+    background-color: #fff;
+    padding: 80px 40px;
+    z-index: 4;
+    height: 100vh;
+}
+aside a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+aside button.close {
+    cursor: pointer;
+    font-size: 24px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.backdrop {
+    position: fixed;
+    display: none;
+    inset: 0;
+    background-color: rgba(0,0,0,.35);
+    backdrop-filter: blur(5px);
+}
